@@ -1,0 +1,30 @@
+{
+  "name": "user-authentication-api",
+  "version": "1.0.0",
+  "description": "User authentication system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pgangotri/user-authentication.git"
+  },
+  "author": "Prashant Kumar Gangotri",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^5.2.0",
+    "good": "^8.1.1",
+    "hapi": "^16.1.1",
+    "hapi-auth-bearer-token": "^5.0.0",
+    "hapi-swagger": "^7.7.0",
+    "inert": "^4.2.0",
+    "joi": "^10.5.2",
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^4.9.7",
+    "nodemailer": "^4.6.8",
+    "validator": "^7.1.0",
+    "vision": "^4.1.1"
+  }
+}
